@@ -113,9 +113,5 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
-    - name: Upload build output
-      uses: actions/upload-artifact@v3
-      with:
-        name: My artifact
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
+   
 
